@@ -24,14 +24,12 @@ body {
 }
 
 .backgroundBlue {
-  background-image: url("../image/blue1.jpg");
-  padding-top: 1px;
-  height: auto;
-  width: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url("../images/blue1.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100vw;
+  height: 60vh;
   overflow-x: hidden;
 }
 
@@ -64,6 +62,46 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Position dropdownContent */
+  .dropdown {
+    padding-left: 10vw;
+    padding-top: 25vh;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+  }
+
+  /* Menu button style */
+  button {
+    font-size: 2vw;
+    background-color: #4c6484;
+    height: 8vw;
+    width: 22vw;
+
+  }
+
+  /* Content boxes style */
+  .dropdownContent {
+    display: none;
+    background-color: grey;
+    position: absolute; /* Don't move the rest of the content */
+    text-align: center;
+    width: 22vw;
+  }
+
+  /* Link styles in menu */
+  .dropdownContent a {
+    display: block;
+    border: 1px solid #8e3242;
+    padding: 1vw;
+  }
+
+  /* When hovering, show dropdownContent */
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }
+
 
 
 .hideOnPc {display: none;} /* Hide content on pc */
