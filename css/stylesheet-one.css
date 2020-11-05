@@ -23,6 +23,19 @@ body {
   padding-left: 2vw;
 }
 
+.backgroundBlue {
+  background-image: url("../image/blue1.jpg");
+  padding-top: 1px;
+  height: auto;
+  width: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+
 /* Horizontal navigation bar */
 .navbar {
   position: fixed;
@@ -51,6 +64,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 
 .hideOnPc {display: none;} /* Hide content on pc */
 
