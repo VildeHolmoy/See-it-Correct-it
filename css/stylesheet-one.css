@@ -1,3 +1,7 @@
+body {
+  margin-top: 20vh;
+}
+
 /* Divide the page in columns */
 .container {
   display: grid;
