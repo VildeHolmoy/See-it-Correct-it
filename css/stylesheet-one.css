@@ -9,3 +9,100 @@
 .main-col-full {
   grid-column: col-1-start/col-6-end;
 }
+
+.logo {
+  float: left;
+  width: 8vw;
+  padding: 0.5vw;
+  padding-left: 2vw;
+}
+
+/* Horizontal navigation bar */
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  z-index: 1; /* Place navbar over everything else */
+}
+
+/* List elements in navbar */
+.navbar li {
+  float: right;
+  display: inline;
+  font-size: 2vw;
+  padding: 2.5vw;
+  padding-top: 2vw;
+}
+
+/* Link style in navbar */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hideOnPc {display: none;} /* Hide content on pc */
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+  .hideOnPh {display: none;} /* Hide content on phone */
+  .showOnPh {display: block;} /* Show content hidden on the pc version */
+
+  .logo {
+    width: 15vw;
+  }
+
+  /* Horizontal navigation bar */
+  .navbar {
+    height: 17vw;
+  }
+
+  /* Menu button */
+  .dropdownButton {
+    font-size: 11vw;
+    float: right;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: none;
+    background-color: white;
+  }
+
+  /* Content boxes style */
+  .dropdownContent {
+    margin-top: 17vw;
+    width: 100%;
+    display: none;
+    position: absolute; /* Don't move the rest of the content */
+    background-color: white;
+    text-align: center;
+    /*width: 100vw;*/
+  }
+
+  /* Link styles in menu */
+  .dropdownContent a {
+    display: block;
+    border: 1px solid grey;
+    padding: 1vw;
+  }
+
+  /* Change color of menu button if hovering */
+  .dropdownButton:hover {
+    background-color: #cac7c9;
+  }
+
+  /* When hovering the menu button, show dropdownContent */
+  .dropdownButton:hover + .dropdownContent {
+    display: block;
+  }
+
+  /* Keep showing content in dropdown menu if hovering the list */
+  .dropdownContent:hover {
+    display: block;
+  }
+}
