@@ -1,0 +1,11 @@
+/* Divide the page in columns */
+.container {
+  display: grid;
+  grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start]
+      1fr [col-4-start] 1fr [col-5-start] 1fr [col-6-start] 1fr [col-6-end];
+  grid-row: auto;
+}
+
+.main-col-full {
+  grid-column: col-1-start/col-6-end;
+}
