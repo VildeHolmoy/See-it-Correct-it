@@ -130,6 +130,10 @@ button {
   .hideOnPh {display: none;} /* Hide content on phone */
   .showOnPh {display: block;} /* Show content hidden on the pc version */
 
+  body {
+    margin-top: 16vw;
+  }
+
   h1 {
     font-size: 7vw;
   }
