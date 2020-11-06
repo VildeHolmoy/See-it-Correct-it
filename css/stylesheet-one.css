@@ -192,5 +192,6 @@ button {
   .subMenu button {
     height: 14vw;
     width: 44vw;
+    font-size: 3vw;
   }
 }
