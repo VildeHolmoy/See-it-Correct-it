@@ -196,7 +196,7 @@ button {
 
   /* Bigger buttons on phone */
   .subMenu button {
-    height: 24vw;
+    height: 20vw;
     width: 44vw;
     font-size: 3vw;
     margin-left: 2.2vw;
