@@ -184,6 +184,13 @@ button {
   width: 29vw;
 }
 
+footer {
+  margin-top: 2vw;
+  border-top: 1px solid black;
+  margin-left: -2vw;
+  margin-right: -2vw;
+}
+
 .hideOnPc {display: none;} /* Hide content on pc */
 
 /* Phone */
