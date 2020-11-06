@@ -55,13 +55,17 @@ body {
   padding-top: 2vw;
 }
 
-/* Link style in navbar */
+/* Link style */
 a {
   color: black;
   text-decoration: none;
 }
 
 a:hover {
+  text-decoration: underline;
+}
+
+a.active {
   text-decoration: underline;
 }
 
@@ -111,13 +115,11 @@ a:hover {
   margin-left: 1.4vw;
   margin-bottom: 1.4vw;
 }
-/*
-.subMenu a {
-  display: inline-block;
-  border: 1px solid;
-  border-color: black;
-  padding: 1vw;
-}*/
+
+.subMenu button:hover {
+  background-color: #6e1519;
+  color: white;
+}
 
 .hideOnPc {display: none;} /* Hide content on pc */
 
