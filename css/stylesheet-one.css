@@ -43,6 +43,7 @@ body {
   width: 100%;
   border-bottom: 1px solid black;
   z-index: 1; /* Place navbar over everything else */
+  background-color: white;
 }
 
 /* List elements in navbar */
@@ -106,7 +107,17 @@ a:hover {
     display: block;
   }
 
-
+.subMenu button {
+  margin-left: 1.4vw;
+  margin-bottom: 1vw;
+}
+/*
+.subMenu a {
+  display: inline-block;
+  border: 1px solid;
+  border-color: black;
+  padding: 1vw;
+}*/
 
 .hideOnPc {display: none;} /* Hide content on pc */
 
