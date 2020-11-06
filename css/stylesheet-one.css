@@ -280,6 +280,7 @@ footer {
     height: 50vw;
     width: 94vw;
     border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     /*height: 18vw;
     width: 29vw;
     font-size: 2vw;
