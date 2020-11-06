@@ -20,6 +20,25 @@ h1 {
   grid-column: col-1-start/col-6-end;
 }
 
+[class*="pict-"] {
+  border: 1px solid black;
+  margin: 1vw;
+  padding: 0.2vw;
+  height: 20vw;
+}
+
+.pict-col-1-2 {
+  grid-column: col-1-start/col-3-start;
+}
+
+.pict-col-3-4 {
+  grid-column: col-3-start/col-5-start;
+}
+
+.pict-col-5-6 {
+  grid-column: col-5-start/col-6-end;
+}
+
 .logo {
   float: left;
   width: 10vw;
@@ -54,7 +73,7 @@ h1 {
   display: inline;
   font-size: 2vw;
   padding: 2.5vw;
-  padding-top: 2vw;
+  padding-top: 3vw;
 }
 
 /* Link style */
@@ -129,6 +148,11 @@ button {
 
 .textAlignCenter {
   text-align: center;
+}
+
+.linkPictures {
+  height: 10vw;
+  width: 29vw;
 }
 
 .hideOnPc {display: none;} /* Hide content on pc */
