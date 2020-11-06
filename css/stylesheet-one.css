@@ -6,6 +6,7 @@ body {
 
 h1 {
   font-size: 3.5vw;
+  margin-bottom: 1vw;
 }
 
 p {
@@ -154,7 +155,7 @@ button {
 
 .subMenu button {
   margin-left: 1.4vw;
-  margin-bottom: 1.4vw;
+  margin-top: 1.4vw;
   /* Allign buttons with line breaks with buttons without line breaks */
   vertical-align: bottom;
 }
@@ -168,7 +169,17 @@ button {
   text-align: center;
 }
 
+.sixBoxes button {
+  height: 18vw;
+  width: 29vw;
+  font-size: 2vw;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+
 .linkPictures {
+  margin-left: -0.45vw;
   height: 10vw;
   width: 29vw;
 }
