@@ -1,5 +1,5 @@
 body {
-  margin-top: 20vh;
+  margin-top: 15vw;
   margin-left: 2vw;
   margin-right: 2vw;
 }
@@ -22,7 +22,7 @@ h1 {
 
 .logo {
   float: left;
-  width: 8vw;
+  width: 10vw;
   padding: 0.5vw;
   padding-left: 2vw;
 }
