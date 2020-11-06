@@ -37,7 +37,6 @@ h1 {
   overflow-x: hidden;
 }
 
-
 /* Horizontal navigation bar */
 .navbar {
   position: fixed;
@@ -131,6 +130,10 @@ button {
   .hideOnPh {display: none;} /* Hide content on phone */
   .showOnPh {display: block;} /* Show content hidden on the pc version */
 
+  h1 {
+    font-size: 7vw;
+  }
+
   .logo {
     width: 15vw;
   }
@@ -183,5 +186,11 @@ button {
   /* Keep showing content in dropdown menu if hovering the list */
   .dropdownContent:hover {
     display: block;
+  }
+
+  /* Bigger buttons on phone */
+  .subMenu button {
+    height: 14vw;
+    width: 44vw;
   }
 }
