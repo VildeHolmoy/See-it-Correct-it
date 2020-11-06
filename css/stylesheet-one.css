@@ -116,6 +116,8 @@ button {
 .subMenu button {
   margin-left: 1.4vw;
   margin-bottom: 1.4vw;
+  /* Allign buttons with line breaks with buttons without line breaks */
+  vertical-align: bottom;
 }
 
 .subMenu button:hover {
