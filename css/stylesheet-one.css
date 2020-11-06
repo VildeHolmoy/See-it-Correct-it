@@ -82,6 +82,8 @@ a.active {
 
 /* Menu button style */
 /* Inspiration for button design: https://www.w3schools.com/css/css3_buttons.asp */
+/* VILDE - si ifra om du endrer noe i button, for jeg bruker designet på de
+    andre sidene */
 button {
   font-size: 2vw;
   background-color: #82959e;
