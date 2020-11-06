@@ -4,6 +4,10 @@ body {
   margin-right: 2vw;
 }
 
+h1 {
+  font-size: 3.5vw;
+}
+
 /* Divide the page in columns */
 .container {
   display: grid;
@@ -15,7 +19,6 @@ body {
 .main-col-full {
   grid-column: col-1-start/col-6-end;
 }
-
 
 .logo {
   float: left;
@@ -70,46 +73,46 @@ a.active {
 }
 
 /* Position dropdownContent */
-  .dropdown {
-    padding-left: 10vw;
-    padding-top: 25vh;
-    position: absolute;
-    display: inline-block;
-    /*z-index: 1;*/ /* Tok den vekk fordi den havna oppå navbardropdown på phone */
-  }
+.dropdown {
+  padding-left: 10vw;
+  padding-top: 25vh;
+  position: absolute;
+  display: inline-block;
+  /*z-index: 1;*/ /* Tok den vekk fordi den havna oppå navbardropdown på phone */
+}
 
-  /* Menu button style */
-  /* Inspiration for button design: https://www.w3schools.com/css/css3_buttons.asp */
-  button {
-    font-size: 2vw;
-    background-color: #82959e;
-    height: 8vw;
-    width: 22vw;
-    border-radius: 4px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
+/* Menu button style */
+/* Inspiration for button design: https://www.w3schools.com/css/css3_buttons.asp */
+button {
+  font-size: 2vw;
+  background-color: #82959e;
+  height: 8vw;
+  width: 22vw;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
-  /* Content boxes style */
-  .dropdownContent {
-    display: none;
-    background-color: #baced6;
-    position: absolute; /* Don't move the rest of the content */
-    text-align: center;
-    width: 22vw;
-  }
+/* Content boxes style */
+.dropdownContent {
+  display: none;
+  background-color: #baced6;
+  position: absolute; /* Don't move the rest of the content */
+  text-align: center;
+  width: 22vw;
+}
 
-  /* Link styles in menu */
-  .dropdownContent a {
-    display: block;
-    border: 1px solid;
-    border-color: black;
-    padding: 1vw;
-  }
+/* Link styles in menu */
+.dropdownContent a {
+  display: block;
+  border: 1px solid;
+  border-color: black;
+  padding: 1vw;
+}
 
-  /* When hovering, show dropdownContent */
-  .dropdown:hover .dropdownContent {
-    display: block;
-  }
+/* When hovering, show dropdownContent */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
 
 .subMenu button {
   margin-left: 1.4vw;
