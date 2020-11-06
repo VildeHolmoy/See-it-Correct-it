@@ -58,6 +58,14 @@ p {
   grid-column: col-5-start/col-6-end;
 }
 
+.pict-col-1-3 {
+  grid-column: col-1-start/col-4-start;
+}
+
+.pict-col-3-6 {
+  grid-column: col-4-start/col-6-end;
+}
+
 .logo {
   float: left;
   width: 10vw;
@@ -268,5 +276,22 @@ footer {
     margin-left: 2.2vw;
     margin-bottom: 5vw;
     font-size: 4vw;
+  }
+
+  .sixBoxes button {
+    width: 44vw;
+    border: 1px solid black;
+    /*height: 18vw;
+    width: 29vw;
+    font-size: 2vw;
+    background-color: white;
+    border: none;
+    box-shadow: none;*/
+  }
+
+  .linkPictures {
+    /*margin-left: -0.45vw;
+    height: 10vw;
+    width: 29vw;*/
   }
 }
