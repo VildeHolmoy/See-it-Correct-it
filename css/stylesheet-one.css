@@ -16,6 +16,7 @@ body {
   grid-column: col-1-start/col-6-end;
 }
 
+
 .logo {
   float: left;
   width: 8vw;
@@ -73,18 +74,20 @@ a:hover {
   }
 
   /* Menu button style */
+  /* Inspiration for button design: https://www.w3schools.com/css/css3_buttons.asp */
   button {
     font-size: 2vw;
-    background-color: #4c6484;
+    background-color: #82959e;
     height: 8vw;
     width: 22vw;
-
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
   /* Content boxes style */
   .dropdownContent {
     display: none;
-    background-color: grey;
+    background-color: #baced6;
     position: absolute; /* Don't move the rest of the content */
     text-align: center;
     width: 22vw;
@@ -93,7 +96,8 @@ a:hover {
   /* Link styles in menu */
   .dropdownContent a {
     display: block;
-    border: 1px solid #8e3242;
+    border: 1px solid;
+    border-color: black;
     padding: 1vw;
   }
 
