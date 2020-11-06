@@ -8,6 +8,11 @@ h1 {
   font-size: 3.5vw;
 }
 
+p {
+  margin-top: 0.5vw;
+  font-size: 2vw;
+}
+
 /* Divide the page in columns */
 .container {
   display: grid;
@@ -22,9 +27,14 @@ h1 {
 
 [class*="pict-"] {
   border: 1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 1vw;
   padding: 0.2vw;
-  height: 20vw;
+  height: 18vw;
+}
+
+[class*="pict-"]:hover {
+  margin-top: 0.5vw;
 }
 
 .pict-col-1-2 {
