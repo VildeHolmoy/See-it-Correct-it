@@ -75,6 +75,14 @@ p {
   overflow-x: hidden;
 }
 
+.backgroundRed {
+  background-color: #8e3242;
+}
+
+.backgroundGrey {
+  background-color: #9b9b9d;
+}
+
 /* Horizontal navigation bar */
 .navbar {
   position: fixed;
