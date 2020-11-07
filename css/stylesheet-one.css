@@ -83,8 +83,31 @@ p {
   background-color: #9b9b9d;
 }
 
-.backgroundLightRed {
-  background-color: #e6f3ff;
+.borderRed {
+  border-left: 2vw;
+  border-right: 2vw;
+  border-top: 0vw;
+  border-bottom: 0vw;
+  border-style: solid;
+  border-color: #8e3242;
+}
+
+.borderRedDegreesLeft {
+  border-left: 2vw;
+  border-right: 1vw;
+  border-top: 0vw;
+  border-bottom: 0vw;
+  border-style: solid;
+  border-color: #8e3242;
+}
+
+.borderDegreesRight {
+  border-left: 1vw;
+  border-right: 2vw;
+  border-top: 0vw;
+  border-bottom: 0vw;
+  border-style: solid;
+  border-color: #8e3242;
 }
 
 /* Horizontal navigation bar */
