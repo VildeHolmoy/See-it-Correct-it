@@ -14,6 +14,10 @@ h2 {
   font-size: 4vw;
 }
 
+h3 {
+  font-size: 2.3vw;
+}
+
 p {
   margin-top: 0.5vw;
   font-size: 2vw;
@@ -121,6 +125,11 @@ p {
   border-left: 0vw;
   border-right: 0vw;
   border-bottom: 0vw;
+}
+
+.degreeImages {
+  width: 20vw;
+  height: 20vw;
 }
 
 /* Horizontal navigation bar */
@@ -260,6 +269,10 @@ footer {
 
   h2 {
     font-size: 9.7vw;
+  }
+
+  h3 {
+    font-size: 3vw;
   }
 
   p {
