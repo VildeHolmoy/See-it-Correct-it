@@ -128,8 +128,7 @@ p {
 }
 
 .degreeImages {
-  width: 20vw;
-  height: 20vw;
+  height: 15vw;
 }
 
 /* Horizontal navigation bar */
@@ -292,6 +291,10 @@ footer {
   .backgroundBlue {
     background-position-y: 16vw;
     height: 33vw;
+  }
+
+  .degreeImages {
+    height: 25vw;
   }
 
   /* Menu button navbar */
