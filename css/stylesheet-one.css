@@ -273,8 +273,8 @@ a.active {
 
 .iconImage {
   width: 4vw;
-  margin-left: -1vw;
-  margin-top: -0.5vw;
+  margin-left: -0.7vw;
+  margin-top: -0.3vw;
 }
 
 .iconButtons {
@@ -286,8 +286,8 @@ a.active {
   margin-top: 1.4vw;
   font-size: 2vw;
   background-color: #afafb6;
-  height: 3.5vw;
-  width: 3.5vw;
+  height: 4vw;
+  width: 4vw;
   border-radius: 4px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   /* Allign buttons with line breaks with buttons without line breaks */
@@ -302,8 +302,8 @@ a.active {
   margin-top: 1.4vw;
   font-size: 2vw;
   background-color: #6e1519;
-  height: 3.5vw;
-  width: 3.5vw;
+  height: 4vw;
+  width: 4vw;
   border-radius: 4px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   /* Allign buttons with line breaks with buttons without line breaks */
