@@ -68,10 +68,11 @@ p {
 .backgroundBlue {
   background-image: url("../images/test2.png");
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
+  background-position-y: 8vw;
   background-attachment: fixed;
   background-size: 100vw;
-  height: 60vh;
+  height: 28vw;
   overflow-x: hidden;
 }
 
@@ -263,13 +264,8 @@ footer {
   }
 
   .backgroundBlue {
-    background-image: url("../images/test2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: 100vw;
-    height: 60vh;
-    overflow-x: hidden;
+    background-position-y: 16vw;
+    height: 33vw;
   }
 
   /* Menu button navbar */
