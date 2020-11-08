@@ -5,8 +5,13 @@ body {
 }
 
 h1 {
-  font-size: 3.5vw;
+  /*font-size: 3.5vw;*/
   margin-bottom: 1vw;
+  font-size: 2vw;
+}
+
+h2 {
+  font-size: 4vw;
 }
 
 p {
@@ -246,7 +251,15 @@ footer {
   }
 
   h1 {
-    font-size: 7vw;
+    /*font-size: 7vw;*/
+  }
+
+  h1 {
+    font-size: 4.7vw;
+  }
+
+  h2 {
+    font-size: 9.7vw;
   }
 
   p {
