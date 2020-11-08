@@ -110,6 +110,13 @@ p {
   border-color: #8e3242;
 }
 
+.borderTop {
+  border-top: 1px solid black;
+  border-left: 0vw;
+  border-right: 0vw;
+  border-bottom: 0vw;
+}
+
 /* Horizontal navigation bar */
 .navbar {
   position: fixed;
@@ -253,6 +260,16 @@ footer {
   /* Horizontal navigation bar */
   .navbar {
     height: 17vw;
+  }
+
+  .backgroundBlue {
+    background-image: url("../images/test2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 100vw;
+    height: 60vh;
+    overflow-x: hidden;
   }
 
   /* Menu button navbar */
