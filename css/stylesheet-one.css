@@ -272,20 +272,20 @@ a.active {
 }
 
 .iconImage {
-  width: 4vw;
+  width: 4.1vw;
   margin-left: -0.7vw;
   margin-top: -0.3vw;
 }
 
 .iconButton {
   display: inline-block;
-  margin-left: 1.4vw;
-  margin-top: 1.4vw;
+  margin-left: 2.4vw;
+  padding-left: 1vw;
   font-size: 2vw;
   /*background-color: #afafb6;*/
   background-color: black;
   height: 4vw;
-  width: 4vw;
+  width: 5vw;
   border-radius: 4px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
