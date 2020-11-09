@@ -19,7 +19,7 @@ h3 {
 }
 
 h4 {
-  font-size:1.6vw;
+  font-size: 1.6vw;
   margin-left: 3vw;
 }
 
@@ -454,7 +454,7 @@ a.active {
   }
 
   .iconImage {
-    width: 7.35vw;
+    width: 7.3vw;
     margin-left: -0.9vw;
     margin-top: -0.4vw;
   }
@@ -462,8 +462,8 @@ a.active {
   .iconButton {
     margin-left: 0.5vw;
     padding-left: 0.6vw;
-    height: 7.45vw;
-    width: 7.45vw;
+    height: 7.4vw;
+    width: 7.4vw;
   }
 
   .iconSpace {
