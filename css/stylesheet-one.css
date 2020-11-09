@@ -441,4 +441,18 @@ footer {
     height: 10vw;
     width: 29vw;*/
   }
+
+  .iconImage {
+    width: 4.1vw;
+    margin-left: -0.7vw;
+    margin-top: -0.3vw;
+  }
+
+  .iconButton {
+    margin-left: 2.4vw;
+    padding-left: 1vw;
+    font-size: 2vw;
+    height: 6vw;
+    width: 7vw;
+  }
 }
