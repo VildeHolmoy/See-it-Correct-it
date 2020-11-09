@@ -459,8 +459,8 @@ footer {
 
   .iconButton {
     margin-left: 2.4vw;
-    padding-left: 1vw;
-    height: 4vw;
-    width: 4vw;
+    padding-left: 0.6vw;
+    height: 4.5vw;
+    width: 4.5vw;
   }
 }
