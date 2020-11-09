@@ -277,42 +277,21 @@ a.active {
   margin-top: -0.3vw;
 }
 
-.iconButtons {
+.iconButton {
   display: inline-block;
-}
-
-.iconButton1 {
   margin-left: 1.4vw;
   margin-top: 1.4vw;
   font-size: 2vw;
-  background-color: #afafb6;
+  /*background-color: #afafb6;*/
+  background-color: black;
   height: 4vw;
   width: 4vw;
   border-radius: 4px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  /* Allign buttons with line breaks with buttons without line breaks */
-  vertical-align: bottom;
-  z-index: 1; /* Position over iconButton2 */
-  display: inline; /* Visible */
-  position: absolute;
 }
 
-.iconButton2 {
-  margin-left: 1.4vw;
-  margin-top: 1.4vw;
-  font-size: 2vw;
+.iconButton:hover {
   background-color: #6e1519;
-  height: 4vw;
-  width: 4vw;
-  border-radius: 4px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  /* Allign buttons with line breaks with buttons without line breaks */
-  vertical-align: bottom;
-  z-index: -1; /* Position under iconButton1 */
-}
-
-.iconButton1:hover {
-  display: none; /* No more iconButton1 when hovering */
 }
 
 footer {
