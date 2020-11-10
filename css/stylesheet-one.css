@@ -261,6 +261,10 @@ a.active {
   text-align: center;
 }
 
+.subMenuHeader {
+  font-size: 3vw;
+}
+
 .sixBoxes button {
   height: 18vw;
   width: 29vw;
@@ -431,6 +435,11 @@ a.active {
     margin-bottom: 5vw;
     font-size: 4vw;
   }
+
+  .subMenuHeader {
+    font-size: 8vw;
+  }
+
 
   .sixBoxes button {
     margin-top: 3vw;
